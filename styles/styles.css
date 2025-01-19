@@ -35,7 +35,7 @@
 
 .hero-container{
     width: 83%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -89,6 +89,7 @@
     height: 28.75%;
 }
 
+/* media query for hero-container(Hero Section) */
 @media screen and (max-width: 576px){
     .hero-container_navBar,
     .hero-container_main-hero{
@@ -105,9 +106,10 @@
     .hero-container_main-hero div{
         order: 2;
     }
-    .hero-container_main-hero h2, p{
+    .hero-container_main-hero h2, p, button{
         text-align: center;
     }
+    
 
 
 }
