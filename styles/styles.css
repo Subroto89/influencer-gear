@@ -95,6 +95,10 @@
         flex-direction: column;
     }
 
+    .hero-container_main-hero{
+        background-position: center top;
+    }
+
     .hero-container_main-hero img{
         order: 1;
     }
