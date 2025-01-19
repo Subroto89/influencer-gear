@@ -91,7 +91,6 @@
 
 @media screen and (max-width: 576px){
     .hero-container_navBar,
-    .hero-container_navList,
     .hero-container_main-hero{
         flex-direction: column;
     }
