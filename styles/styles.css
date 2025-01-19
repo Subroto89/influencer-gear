@@ -106,7 +106,7 @@
     .hero-container_main-hero div{
         order: 2;
     }
-    .hero-container_main-hero h2, p, button{
+    .hero-container_main-hero h1, p, button{
         text-align: center;
     }
     
