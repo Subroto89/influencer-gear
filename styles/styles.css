@@ -67,6 +67,21 @@
     background-repeat: no-repeat;
     background-size: 30%;
     background-position-x: right;
+    margin-top: 47px;
+}
+
+.hero-container_main-hero p{
+    margin: 15px 0 15px;
+}
+
+.hero-container_main-hero button{
+    width: 26%;
+    padding: 3px 2px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 .hero-container_main-hero img{
@@ -75,7 +90,20 @@
 }
 
 @media screen and (max-width: 576px){
-    
+    .hero-container_navBar,
+    .hero-container_navList,
+    .hero-container_main-hero{
+        flex-direction: column;
+    }
+
+    .hero-container_main-hero img{
+        order: 1;
+    }
+    .hero-container_main-hero div{
+        order: 2;
+    }
+
+
 }
 /* Main Section Styles */
 
