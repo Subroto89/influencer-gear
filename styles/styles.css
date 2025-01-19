@@ -121,9 +121,49 @@
     place-items: center;
 }
 
+
 .main-container_brandLogo-box img{
     width: 75px;
     height: 65px;
+}
+
+/* Media Query for Brand Box*/
+
+@media screen and (max-width: 576px) {
+    .main-container_brandLogo-box img{
+        width: 30px;
+        height: 65px;
+    }
+    .main-container_brandLogo-box{
+        grid-gap: 2px;
+        grid-template-columns: 45px 45px 45px 45px 45px 45px 45px;
+        grid-template-rows: 45px 45px 45px 45px 45px 45px 45px;        
+        grid-template-areas: "alibaba amazon amazon ebay ebay rakuten rakutaen"
+                             ".   daraz .  target . walmart ."
+    }
+
+    .alibaba{
+        grid-area: alibaba;
+    }
+    .amazon{
+        grid-area: amazon;
+    }
+    .daraz{
+        grid-area: daraz;
+    }
+    .ebay{
+        grid-area: ebay;
+    }
+    .rakuten{
+        grid-area: rakuten;
+    }
+    .target{
+        grid-area: target;
+    }
+    .walmart{
+        grid-area: walmart;
+    } 
+    
 }
 
 /* Footer Section Styles */
